@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.image.*?>
 <?import javafx.scene.effect.*?>
 <?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
@@ -7,11 +9,19 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Piano_demoController">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onKeyPressed="#press_Q_Clicked" onKeyReleased="#press_Q_Released" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Piano_demoController">
    <children>
-      <Button fx:id="bt1" layoutX="226.0" layoutY="237.0" mnemonicParsing="false" text="没有共产党就没有新中国" textFill="#bc1313" />
-      <TextField fx:id="tf1" layoutX="177.0" layoutY="165.0" prefHeight="23.0" prefWidth="246.0" />
-      <Button fx:id="bt2" layoutX="273.0" layoutY="303.0" mnemonicParsing="false" text="Button" />
-      <ToggleButton fx:id="tbt1" blendMode="GREEN" layoutX="253.0" layoutY="269.0" mnemonicParsing="false" onKeyPressed="#press_A" onMouseClicked="#press_a" text="ToggleButton" />
+      <TextField fx:id="tf1" disable="true" layoutX="147.0" layoutY="93.0" prefHeight="23.0" prefWidth="246.0" text="aaaaaaaaaaaaaaaaaaa" />
+      <ImageView fx:id="white1" fitHeight="150.0" fitWidth="200.0" layoutX="236.0" layoutY="162.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../piano/white_before.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="white2" fitHeight="150.0" fitWidth="200.0" layoutX="270.0" layoutY="162.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../../../../../piano/white_after.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="bt1" layoutX="236.0" layoutY="126.0" mnemonicParsing="false" text="Button" />
    </children>
 </Pane>

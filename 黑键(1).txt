@@ -1,0 +1,246 @@
+		if(event.getCode() == KeyCode.S){
+			File file = new File("5.mp3");
+			click(file, black1, black2);
+		}
+		if(event.getCode() == KeyCode.D){
+			File file = new File("7.mp3");
+			click(file, black3, black4);
+		}
+		if(event.getCode() == KeyCode.G){
+			File file = new File("10.mp3");
+			click(file, black5, black6);
+		}
+		if(event.getCode() == KeyCode.H){
+			File file = new File("12.mp3");
+			click(file, black7, black8);
+		}
+		if(event.getCode() == KeyCode.J){
+			File file = new File("14.mp3");
+			click(file, black9, black10);
+		}
+		if(event.getCode() == KeyCode.S){
+			File file = new File("17.mp3");
+			click(file, black1, black2);
+		}
+		if(event.getCode() == KeyCode.D){
+			File file = new File("19.mp3");
+			click(file, black3, black4);
+		}
+		if(event.getCode() == KeyCode.G){
+			File file = new File("22.mp3");
+			click(file, black5, black6);
+		}
+		if(event.getCode() == KeyCode.H){
+			File file = new File("24.mp3");
+			click(file, black7, black8);
+		}
+		if(event.getCode() == KeyCode.J){
+			File file = new File("26.mp3");
+			click(file, black9, black10);
+		}
+		if(event.getCode() == KeyCode.S){
+			File file = new File("29.mp3");
+			click(file, black1, black2);
+		}
+		if(event.getCode() == KeyCode.D){
+			File file = new File("31.mp3");
+			click(file, black3, black4);
+		}
+		if(event.getCode() == KeyCode.G){
+			File file = new File("34.mp3");
+			click(file, black5, black6);
+		}
+		if(event.getCode() == KeyCode.H){
+			File file = new File("36.mp3");
+			click(file, black7, black8);
+		}
+		if(event.getCode() == KeyCode.J){
+			File file = new File("38.mp3");
+			click(file, black9, black10);
+		}
+		if(event.getCode() == KeyCode.S){
+			File file = new File("41.mp3");
+			click(file, black1, black2);
+		}
+		if(event.getCode() == KeyCode.D){
+			File file = new File("43.mp3");
+			click(file, black3, black4);
+		}
+		if(event.getCode() == KeyCode.G){
+			File file = new File("46.mp3");
+			click(file, black5, black6);
+		}
+		if(event.getCode() == KeyCode.H){
+			File file = new File("48.mp3");
+			click(file, black7, black8);
+		}
+		if(event.getCode() == KeyCode.J){
+			File file = new File("50.mp3");
+			click(file, black9, black10);
+		}
+		if(event.getCode() == KeyCode.S){
+			File file = new File("53.mp3");
+			click(file, black1, black2);
+		}
+		if(event.getCode() == KeyCode.D){
+			File file = new File("55.mp3");
+			click(file, black3, black4);
+		}
+		if(event.getCode() == KeyCode.G){
+			File file = new File("58.mp3");
+			click(file, black5, black6);
+		}
+		if(event.getCode() == KeyCode.H){
+			File file = new File("60.mp3");
+			click(file, black7, black8);
+		}
+		if(event.getCode() == KeyCode.J){
+			File file = new File("62.mp3");
+			click(file, black9, black10);
+		}
+		if(event.getCode() == KeyCode.S){
+			File file = new File("65.mp3");
+			click(file, black1, black2);
+		}
+		if(event.getCode() == KeyCode.D){
+			File file = new File("67.mp3");
+			click(file, black3, black4);
+		}
+		if(event.getCode() == KeyCode.G){
+			File file = new File("70.mp3");
+			click(file, black5, black6);
+		}
+		if(event.getCode() == KeyCode.H){
+			File file = new File("72.mp3");
+			click(file, black7, black8);
+		}
+		if(event.getCode() == KeyCode.J){
+			File file = new File("74.mp3");
+			click(file, black9, black10);
+		}
+
+
+
+
+		
+		if(event.getCode() == DIGIT.7){
+			File file = new File("17.mp3");
+			click(file, black11, black12);
+		}
+		if(event.getCode() == DIGIT.8){
+			File file = new File("19.mp3");
+			click(file, black13, black14);
+		}
+		if(event.getCode() == DIGIT.0){
+			File file = new File("22.mp3");
+			click(file, black15, black16);
+		}
+		if(event.getCode() == SUBTRACT.-){
+			File file = new File("24.mp3");
+			click(file, black17, black18);
+		}
+		if(event.getCode() == EQUALS.=){
+			File file = new File("26.mp3");
+			click(file, black19, black20);
+		}
+		if(event.getCode() == DIGIT.7){
+			File file = new File("29.mp3");
+			click(file, black11, black12);
+		}
+		if(event.getCode() == DIGIT.8){
+			File file = new File("31.mp3");
+			click(file, black13, black14);
+		}
+		if(event.getCode() == DIGIT.0){
+			File file = new File("34.mp3");
+			click(file, black15, black16);
+		}
+		if(event.getCode() == SUBTRACT.-){
+			File file = new File("36.mp3");
+			click(file, black17, black18);
+		}
+		if(event.getCode() == EQUALS.=){
+			File file = new File("38.mp3");
+			click(file, black19, black20);
+		}
+		if(event.getCode() == DIGIT.7){
+			File file = new File("41.mp3");
+			click(file, black11, black12);
+		}
+		if(event.getCode() == DIGIT.8){
+			File file = new File("43.mp3");
+			click(file, black13, black14);
+		}
+		if(event.getCode() == DIGIT.0){
+			File file = new File("46.mp3");
+			click(file, black15, black16);
+		}
+		if(event.getCode() == SUBTRACT.-){
+			File file = new File("48.mp3");
+			click(file, black17, black18);
+		}
+		if(event.getCode() == EQUALS.=){
+			File file = new File("50.mp3");
+			click(file, black19, black20);
+		}
+		if(event.getCode() == DIGIT.7){
+			File file = new File("53.mp3");
+			click(file, black11, black12);
+		}
+		if(event.getCode() == DIGIT.8){
+			File file = new File("55.mp3");
+			click(file, black13, black14);
+		}
+		if(event.getCode() == DIGIT.0){
+			File file = new File("58.mp3");
+			click(file, black15, black16);
+		}
+		if(event.getCode() == SUBTRACT.-){
+			File file = new File("60.mp3");
+			click(file, black17, black18);
+		}
+		if(event.getCode() == EQUALS.=){
+			File file = new File("62.mp3");
+			click(file, black19, black20);
+		}
+		if(event.getCode() == DIGIT.7){
+			File file = new File("65.mp3");
+			click(file, black11, black12);
+		}
+		if(event.getCode() == DIGIT.8){
+			File file = new File("67.mp3");
+			click(file, black13, black14);
+		}
+		if(event.getCode() == DIGIT.0){
+			File file = new File("70.mp3");
+			click(file, black15, black16);
+		}
+		if(event.getCode() == SUBTRACT.-){
+			File file = new File("72.mp3");
+			click(file, black17, black18);
+		}
+		if(event.getCode() == EQUALS.=){
+			File file = new File("74.mp3");
+			click(file, black19, black20);
+		}
+		if(event.getCode() == DIGIT.7){
+			File file = new File("77.mp3");
+			click(file, black11, black12);
+		}
+		if(event.getCode() == DIGIT.8){
+			File file = new File("79.mp3");
+			click(file, black13, black14);
+		}
+		if(event.getCode() == DIGIT.0){
+			File file = new File("82.mp3");
+			click(file, black15, black16);
+		}
+		if(event.getCode() == SUBTRACT.-){
+			File file = new File("84.mp3");
+			click(file, black17, black18);
+		}
+		if(event.getCode() == EQUALS.=){
+			File file = new File("86.mp3");
+			click(file, black19, black20);
+		}
+		

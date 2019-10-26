@@ -117,7 +117,7 @@
             <Image url="@../github/hahahahohohoge/piano/white1.jpg" />
          </image>
       </ImageView>
-      <ImageView fx:id="c1u1d2u" fitHeight="150.0" fitWidth="200.0" layoutX="334.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="d2u" fitHeight="150.0" fitWidth="200.0" layoutX="334.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../github/hahahahohohoge/piano/white1.jpg" />
          </image>

@@ -10,7 +10,7 @@ public class Main extends Application {
     public void start(Stage primaryStage) {
         try {
             Parent root = FXMLLoader.load(getClass().getResource("Piano_demo.fxml"));                            
-            Scene scene = new Scene(root);
+            Scene scene = new Scene(root,533,390);
             scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
             primaryStage.setScene(scene);
             primaryStage.setResizable(false);//设置不能窗口改变大小

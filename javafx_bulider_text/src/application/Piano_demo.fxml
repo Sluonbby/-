@@ -9,19 +9,281 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onKeyPressed="#press_Q_Clicked" onKeyReleased="#press_Q_Released" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Piano_demoController">
+<Pane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onKeyPressed="#press_Clicked" onKeyReleased="#press_Released" prefHeight="400.0" prefWidth="537.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Piano_demoController">
    <children>
-      <TextField fx:id="tf1" disable="true" layoutX="147.0" layoutY="93.0" prefHeight="23.0" prefWidth="246.0" text="aaaaaaaaaaaaaaaaaaa" />
-      <ImageView fx:id="white1" fitHeight="150.0" fitWidth="200.0" layoutX="253.0" layoutY="161.0" pickOnBounds="true" preserveRatio="true">
+      <Pane layoutY="171.0" prefHeight="231.0" prefWidth="547.0" style="-fx-background-color: orangered;">
+         <children>
+            <ImageView fx:id="white2" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../piano/white2.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="white4" fitHeight="150.0" fitWidth="200.0" layoutX="39.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../piano/white2.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="white6" fitHeight="150.0" fitWidth="200.0" layoutX="78.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../piano/white2.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="white16" fitHeight="150.0" fitWidth="200.0" layoutX="273.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../piano/white2.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="white14" fitHeight="150.0" fitWidth="200.0" layoutX="234.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../piano/white2.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="white12" fitHeight="150.0" fitWidth="200.0" layoutX="195.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../piano/white2.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="white10" fitHeight="150.0" fitWidth="200.0" layoutX="156.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../piano/white2.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="white8" fitHeight="150.0" fitWidth="200.0" layoutX="117.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../piano/white2.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="white26" fitHeight="150.0" fitWidth="200.0" layoutX="468.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../piano/white2.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="white24" fitHeight="150.0" fitWidth="200.0" layoutX="429.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../piano/white2.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="white22" fitHeight="150.0" fitWidth="200.0" layoutX="390.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../piano/white2.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="white20" fitHeight="150.0" fitWidth="200.0" layoutX="351.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../piano/white2.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="white18" fitHeight="150.0" fitWidth="200.0" layoutX="312.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../piano/white2.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="white28" fitHeight="150.0" fitWidth="200.0" layoutX="507.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../piano/white2.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="white1" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../piano/white1.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="white3" fitHeight="150.0" fitWidth="200.0" layoutX="39.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../piano/white1.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="white5" fitHeight="150.0" fitWidth="200.0" layoutX="78.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../piano/white1.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="white7" fitHeight="150.0" fitWidth="200.0" layoutX="117.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../piano/white1.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="white9" fitHeight="150.0" fitWidth="200.0" layoutX="156.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../piano/white1.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="white11" fitHeight="150.0" fitWidth="200.0" layoutX="195.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../piano/white1.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="white13" fitHeight="150.0" fitWidth="200.0" layoutX="234.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../piano/white1.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="white15" fitHeight="150.0" fitWidth="200.0" layoutX="273.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../piano/white1.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="white17" fitHeight="150.0" fitWidth="200.0" layoutX="312.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../piano/white1.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="white19" fitHeight="150.0" fitWidth="200.0" layoutX="351.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../piano/white1.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="white21" fitHeight="150.0" fitWidth="200.0" layoutX="390.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../piano/white1.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="white23" fitHeight="150.0" fitWidth="200.0" layoutX="429.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../piano/white1.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="white25" fitHeight="150.0" fitWidth="200.0" layoutX="468.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../piano/white1.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="white27" fitHeight="150.0" fitWidth="200.0" layoutX="507.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../piano/white1.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="black2" fitHeight="99.0" fitWidth="39.0" layoutX="22.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../piano/black2.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="black4" fitHeight="99.0" fitWidth="39.0" layoutX="61.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../piano/black2.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="black6" fitHeight="99.0" fitWidth="39.0" layoutX="139.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../piano/black2.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="black8" fitHeight="99.0" fitWidth="39.0" layoutX="178.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../piano/black2.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="black10" fitHeight="99.0" fitWidth="39.0" layoutX="217.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../piano/black2.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="black12" fitHeight="99.0" fitWidth="39.0" layoutX="295.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../piano/black2.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="black14" fitHeight="99.0" fitWidth="39.0" layoutX="334.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../piano/black2.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="black16" fitHeight="99.0" fitWidth="39.0" layoutX="412.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../piano/black2.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="black18" fitHeight="99.0" fitWidth="39.0" layoutX="451.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../piano/black2.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="black20" fitHeight="99.0" fitWidth="39.0" layoutX="490.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../piano/black2.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="black1" fitHeight="99.0" fitWidth="39.0" layoutX="22.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../piano/black1.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="black3" fitHeight="99.0" fitWidth="39.0" layoutX="61.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../piano/black1.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="black5" fitHeight="99.0" fitWidth="39.0" layoutX="139.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../piano/black1.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="black7" fitHeight="99.0" fitWidth="39.0" layoutX="178.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../piano/black1.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="black9" fitHeight="99.0" fitWidth="39.0" layoutX="217.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../piano/black1.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="black11" fitHeight="99.0" fitWidth="39.0" layoutX="295.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../piano/black1.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="black13" fitHeight="99.0" fitWidth="39.0" layoutX="334.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../piano/black1.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="black15" fitHeight="99.0" fitWidth="39.0" layoutX="412.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../piano/black1.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="black17" fitHeight="99.0" fitWidth="39.0" layoutX="451.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../piano/black1.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="black19" fitHeight="99.0" fitWidth="39.0" layoutX="490.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../piano/black1.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <ImageView fx:id="pa" fitHeight="83.0" fitWidth="547.0" visible="false">
          <image>
-            <Image url="@../../../../../piano/white_before.png" />
+            <Image url="@../../pa.png" />
          </image>
       </ImageView>
-      <ImageView fx:id="white2" fitHeight="150.0" fitWidth="200.0" layoutX="253.0" layoutY="161.0" pickOnBounds="true" preserveRatio="true" visible="false">
+      <ImageView fx:id="pc" fitHeight="83.0" fitWidth="547.0">
          <image>
-            <Image url="@../../../../../piano/white_after.png" />
+            <Image url="@../../pc.png" />
          </image>
       </ImageView>
-      <Button fx:id="bt1" layoutX="236.0" layoutY="126.0" mnemonicParsing="false" text="Button" />
+      <ImageView fx:id="pd" fitHeight="83.0" fitWidth="547.0" visible="false">
+         <image>
+            <Image url="@../../pd.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pe" fitHeight="83.0" fitWidth="547.0" visible="false">
+         <image>
+            <Image url="@../../pe.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pf" fitHeight="83.0" fitWidth="547.0" visible="false">
+         <image>
+            <Image url="@../../pf.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pb" fitHeight="83.0" fitWidth="547.0" visible="false">
+         <image>
+            <Image url="@../../pb.png" />
+         </image>
+      </ImageView>
    </children>
 </Pane>

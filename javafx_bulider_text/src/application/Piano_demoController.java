@@ -6,6 +6,7 @@ import javafx.scene.control.TextField;
 import javafx.scene.image.ImageView;
 import javafx.scene.input.KeyCode;
 import javafx.scene.input.KeyEvent;
+import javafx.scene.layout.Pane;
 import javafx.scene.media.Media;
 import javafx.scene.media.MediaPlayer;
 import java.io.File;
@@ -23,30 +24,47 @@ public class Piano_demoController {
 	private Media media;
 	@FXML
 	private MediaPlayer mplayer;
-	
+	@FXML
+	private ImageView black1;
+	@FXML
+	private ImageView black2;
+	@FXML
+	private Pane pane;
 
-	public void press_Q_Clicked(KeyEvent event) {
+	public void click(File file, ImageView a, ImageView b) {
+		media = new Media(file.toURI().toString());
+		mplayer = new MediaPlayer(media);
+		a.setVisible(false); 
+		b.setVisible(true);
+		mplayer.play();
+		//System.out.println("Click A");
+	}
+	
+	public void release(ImageView b, ImageView a) {
+		b.setVisible(false);
+		a.setVisible(true);
+	}
+	
+	public void press_Clicked(KeyEvent event) {
 		if(event.getCode() == KeyCode.Q){
-			tf1.setText("Click Q");
-			File file = new java.io.File("a48.mp3");
-			media = new Media(file.toURI().toString());
-			mplayer = new MediaPlayer(media);
-			white1.setVisible(false);
-			white2.setVisible(true);
-			mplayer.play();
-			String text = tf1.getText();
-			System.out.println(text);
+			File file = new File("a48.mp3");
+			click(file, white1, white2);
 		}
+		if(event.getCode() == KeyCode.DIGIT7){
+			File file = new File("a48.mp3");
+			click(file, black1, black2);
+		}
+		
+	
 
 	}
 	
-	public void press_Q_Released(KeyEvent event) {
+	public void press_Released(KeyEvent event) {
 		if(event.getCode() == KeyCode.Q){
-			tf1.setText("Release Q");
-			white2.setVisible(false);
-			white1.setVisible(true);
-			String text = tf1.getText();
-			System.out.println(text);
+			release(white2, white1);
+		}
+		if(event.getCode() == KeyCode.DIGIT2){
+			release(black2, black1);
 		}
 
 	}

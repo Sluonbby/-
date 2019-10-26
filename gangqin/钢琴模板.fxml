@@ -26,27 +26,27 @@
                   <Image url="@../piano/white2.jpg" />
                </image>
             </ImageView>
-            <ImageView fx:id="c3p" fitHeight="150.0" fitWidth="200.0" layoutX="69.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="c3p" fitHeight="150.0" fitWidth="200.0" layoutX="74.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../piano/white2.jpg" />
                </image>
             </ImageView>
-            <ImageView fx:id="c4p" fitHeight="150.0" fitWidth="200.0" layoutX="109.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="c4p" fitHeight="150.0" fitWidth="200.0" layoutX="113.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../piano/white2.jpg" />
                </image>
             </ImageView>
-            <ImageView fx:id="c5p" fitHeight="150.0" fitWidth="200.0" layoutX="149.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="c5p" fitHeight="150.0" fitWidth="200.0" layoutX="152.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../piano/white2.jpg" />
                </image>
             </ImageView>
-            <ImageView fx:id="c6p" fitHeight="150.0" fitWidth="200.0" layoutX="189.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="c6p" fitHeight="150.0" fitWidth="200.0" layoutX="191.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../piano/white2.jpg" />
                </image>
             </ImageView>
-            <ImageView fx:id="c7p" fitHeight="150.0" fitWidth="200.0" layoutX="229.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="c7p" fitHeight="150.0" fitWidth="200.0" layoutX="230.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../piano/white2.jpg" />
                </image>
@@ -91,22 +91,17 @@
                   <Image url="@../piano/white1.jpg" />
                </image>
             </ImageView>
-            <ImageView fx:id="c3u" fitHeight="150.0" fitWidth="200.0" layoutX="73.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="c3u" fitHeight="150.0" fitWidth="200.0" layoutX="74.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../piano/white1.jpg" />
                </image>
             </ImageView>
-            <ImageView fx:id="c4u" fitHeight="150.0" fitWidth="200.0" layoutX="111.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="c4u" fitHeight="150.0" fitWidth="200.0" layoutX="113.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../piano/white1.jpg" />
                </image>
             </ImageView>
-            <ImageView fx:id="c5u" fitHeight="150.0" fitWidth="200.0" layoutX="150.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@../piano/white1.jpg" />
-               </image>
-            </ImageView>
-            <ImageView fx:id="c6u" fitHeight="150.0" fitWidth="200.0" layoutX="190.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="c6u" fitHeight="150.0" fitWidth="200.0" layoutX="193.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../piano/white1.jpg" />
                </image>
@@ -229,6 +224,11 @@
             <ImageView fx:id="c6xu" fitHeight="101.0" fitWidth="46.0" layoutX="211.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../piano/black1.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="c5u" fitHeight="150.0" fitWidth="200.0" layoutX="153.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../piano/white1.jpg" />
                </image>
             </ImageView>
             <ImageView fx:id="c5xu" fitHeight="101.0" fitWidth="46.0" layoutX="172.0" pickOnBounds="true" preserveRatio="true">

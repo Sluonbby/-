@@ -253,5 +253,35 @@
             </ImageView>
          </children>
       </Pane>
+      <ImageView fx:id="ga" fitHeight="64.0" fitWidth="552.0">
+         <image>
+            <Image url="@../钢琴全键/钢琴全a.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ge" fitHeight="64.0" fitWidth="552.0">
+         <image>
+            <Image url="@../钢琴全键/钢琴全e.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="gd" fitHeight="64.0" fitWidth="552.0">
+         <image>
+            <Image url="@../钢琴全键/钢琴全d.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="gf" fitHeight="64.0" fitWidth="552.0">
+         <image>
+            <Image url="@../钢琴全键/钢琴全f.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="gb" fitHeight="64.0" fitWidth="552.0">
+         <image>
+            <Image url="@../钢琴全键/钢琴全c.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="gc" fitHeight="64.0" fitWidth="552.0">
+         <image>
+            <Image url="@../钢琴全键/钢琴全b.png" />
+         </image>
+      </ImageView>
    </children>
 </Pane>

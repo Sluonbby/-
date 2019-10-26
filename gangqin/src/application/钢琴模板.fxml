@@ -12,12 +12,12 @@
          <children>
             <ImageView fx:id="c1p" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../piano/white2.jpg" />
+                  <Image url="@../../../piano/white2.jpg" />
                </image>
             </ImageView>
             <ImageView fx:id="c1u" fitHeight="150.0" fitWidth="39.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../piano/white1.jpg" />
+                  <Image url="@../../..piano/white1.jpg" />
                </image>
             </ImageView>
             <ImageView fx:id="c2p" fitHeight="150.0" fitWidth="200.0" layoutX="35.0" pickOnBounds="true" preserveRatio="true">

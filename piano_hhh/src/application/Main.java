@@ -11,10 +11,11 @@ public class Main extends Application {
         try {
             Parent root = FXMLLoader.load(getClass().getResource("Piano_demo.fxml"));                            
             Scene scene = new Scene(root,533,390);
+            scene.getRoot().requestFocus();
             scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
             primaryStage.setScene(scene);
-            primaryStage.setResizable(false);//设置不能窗口改变大小
-            primaryStage.setTitle("一个简单的JavaFX");//设置标题
+            primaryStage.setResizable(false);
+            primaryStage.setTitle("piano");
             primaryStage.show();
         } catch(Exception e) {
             e.printStackTrace();

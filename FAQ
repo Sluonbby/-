@@ -1,0 +1,6 @@
+如果提示error如下图所示
+
+则先需要在www.java.com下载对应电脑版本的JRE的环境，再重新打开软件即可
+如想查看电脑是否拥有JRE环境
+请在terminal(mac)/命令提示符(win)中输入Java -version查看
+若已经安装，则显示

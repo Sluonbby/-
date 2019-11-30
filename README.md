@@ -35,3 +35,5 @@
 4. 开源软件AutoPiano
 
 P.S：如果在SceneBuilder上无法显示出图片，请更改图片源、暂时无法完成绝对路径
+效果图如下:
+![Image text](piano素材/截图/WechatIMG30.png)
